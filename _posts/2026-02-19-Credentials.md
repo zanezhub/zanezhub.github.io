@@ -71,14 +71,16 @@ First it starts declaring a lot of variables that all form part of the same payl
 
 It add all the variables to prepare for the decryption, it uses the same snipped code we have seen previously. After decrypting this I got another JavaScript `Execute2.js` code that will be used in the browser.
 ## Execute2.js
-The first snippet of the code is the same antidebug code we discussed previously. The only thing that is different is this `Base64` encoded payload. This code will be decoded and executed using 
+The first snippet of the code is the same antidebug code we discussed previously. The only thing that is different is this `Base64` encoded payload. This code will be decoded and executed using javascript
 
-```javascript
+```js
 k = atob(payload);
 document.write(k);
 ```
+
 ![](assets/img/posts/credentials/14.png)
-We will call the output of this `Execute3.js`
+
+We will call the output of this `Execute4.js`
 ## Execute3.html
 This is an HTML page, the first JavaScript is the same antidebugging code that we have seen.
 The website is another credential harvester.

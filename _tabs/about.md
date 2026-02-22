@@ -4,5 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Just doing reverse engineering on malware because it's fun.
+Hoping I get better at this.
+
+Some goals:
+- Analyze cool malware
+- Track Malware being sold on Telegram
+- Contact Malware authors to learn more
+- Have fun
+- Provide good and interesting articles
+- Learn
