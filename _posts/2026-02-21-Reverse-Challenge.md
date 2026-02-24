@@ -1,8 +1,8 @@
 ---
 title: Reverse Challenge - EasyJerk
 date: 2026-02-21 23:50:00 -0600
-categories: [reverse engineer, phishing, credential, stealer, social engineering]
-tags: [blog,reverse engineer, phishing, credential, stealer, social engineering]
+categories: [reverse engineer, crackmes.one]
+tags: [blog,reverse engineer, crackmes.one]
 ---
 
 ![Challenge description](assets/img/posts/reverse-ch/01.png)
@@ -60,6 +60,7 @@ Then the next strep is check the function `check_serial` because that's the main
 
 ### Check Serial function
 Now, we can see that the next function is a little bit more complex, but we can rename some of the variables here to make it more readable.
+
 ![Check-serial](assets/img/posts/reverse-ch/04.png)
 
 But first I'm going to change from High Level IL to Pseudo C, because it looks a little bit cleaner when it comes to the code.
