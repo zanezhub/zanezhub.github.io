@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="PPwP-grl-DoMW_GYTwg1">
+    <mxGraphModel dx="1414" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-3" edge="1" parent="1" source="xR4GckxsIiy5Ukl2s_TJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" target="lMlbiRFieSX6SMZHk5Ss-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xR4GckxsIiy5Ukl2s_TJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="Main" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-5" edge="1" parent="1" source="lMlbiRFieSX6SMZHk5Ss-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" target="lMlbiRFieSX6SMZHk5Ss-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="Weird code&lt;div&gt;0x10007df3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-7" edge="1" parent="1" source="lMlbiRFieSX6SMZHk5Ss-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" target="lMlbiRFieSX6SMZHk5Ss-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="Create struct to obfuscate data" vertex="1">
+          <mxGeometry height="30" width="240" x="220" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-9" edge="1" parent="1" source="lMlbiRFieSX6SMZHk5Ss-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" target="lMlbiRFieSX6SMZHk5Ss-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="mw_permissions&lt;div&gt;0x10007dfb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-11" edge="1" parent="1" source="lMlbiRFieSX6SMZHk5Ss-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" target="lMlbiRFieSX6SMZHk5Ss-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="3 calls to mw_chg_proc_perms&lt;div&gt;0x100081ba&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="240" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-13" edge="1" parent="1" source="lMlbiRFieSX6SMZHk5Ss-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" target="lMlbiRFieSX6SMZHk5Ss-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="mw_junk_code&lt;div&gt;0x10008677&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" target="lMlbiRFieSX6SMZHk5Ss-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-12" parent="1" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="GetModuleFileNameW&lt;div&gt;0x10007d2f&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="245" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="mw_load_payload&lt;div&gt;0x10008acf&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="260" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="440" width="50" x="170" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-17" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;sketch=1;curveFitting=1;jiggle=2;rounded=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="80" width="20" x="450" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-18" parent="1" style="text;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;rounded=1;labelBackgroundColor=none;" value="SeShutdownPrivilege" vertex="1">
+          <mxGeometry height="30" width="120" x="480" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-19" parent="1" style="text;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;rounded=1;labelBackgroundColor=none;" value="SeDebugPrivilege" vertex="1">
+          <mxGeometry height="30" width="110" x="480" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-20" parent="1" style="text;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;rounded=1;labelBackgroundColor=none;" value="SeTcbPrivilege" vertex="1">
+          <mxGeometry height="30" width="90" x="480" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-22" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;sketch=1;curveFitting=1;jiggle=2;rounded=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="60" width="20" x="370" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="Store permissions in global variable for further use" vertex="1">
+          <mxGeometry height="50" width="160" x="402" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=1;fontSize=11;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="Retrieve the full path for the file that contains a module. The module is currently loaded in the malware." vertex="1">
+          <mxGeometry height="60" width="180" x="450" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="Allocate in the heap the module that was searched." vertex="1">
+          <mxGeometry height="40" width="170" x="430" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-26" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;sketch=1;curveFitting=1;jiggle=2;rounded=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="200" width="20" x="632" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="mw_permissions&lt;div&gt;0x10007cc0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="40" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="Malware loads itself in memory" vertex="1">
+          <mxGeometry height="40" width="100" x="660" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=1;fontSize=11;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="This will be used a lot through the code" vertex="1">
+          <mxGeometry height="30" width="120" x="470" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="&lt;ul&gt;&lt;li&gt;library&lt;/li&gt;&lt;li&gt;filename&lt;/li&gt;&lt;li&gt;perms&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="535" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="lMlbiRFieSX6SMZHk5Ss-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=1;fontSize=11;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" value="This changes the permissions of the current process" vertex="1">
+          <mxGeometry height="50" width="140" x="620" y="385" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
