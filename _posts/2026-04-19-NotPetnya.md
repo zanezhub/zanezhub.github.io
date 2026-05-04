@@ -225,7 +225,7 @@ We write to the `C:\` drive using the junk data. This is meant to corrupt the NT
 #### MBR Wiper
 We don't even need to analyze this function, it's exactly the same as a previous function we already analyzed before at [Drive C:\ by ̿ ̿ ̿'̿'\̵͇̿\ ](#drive-c).
 
-![](assets\img\posts\notpetnya\11_overwritePhysicalDrive0.png)
+![](assets/img/posts/notpetnya/11_overwritePhysicalDrive0.png)
 
 The only difference between this function and the previous one is that we don't use the function `SetFilePointer` so it's going to start writing from the very beginning of the drive.
 
@@ -233,7 +233,7 @@ This is the MBR (Master Boot Record) wiper. After all these instructions and wip
 
 ### CheckPoint 3
 
-![](assets\img\posts\notpetnya\12_checkpoint-3.png)
+![](assets/img/posts/notpetnya/12_checkpoint-3.png)
 
 Just summary of the last part. Nothing too complicated. I skipped a function that I did not fully reverse. I took a quick look and it seems like it's also overwriting the `MRB` of `PhysicalDrive0`. Addititonal to that is also overwriting other drives with random bytes created with Crypto Windows API functions.x
 
