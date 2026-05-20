@@ -8,9 +8,6 @@ Just doing reverse engineering on malware because it's fun.
 Hoping I get better at this.
 
 Some goals:
-- Analyze cool malware
-- Track Malware being sold on Telegram
-- Contact Malware authors to learn more
+- Analyze malware I find cool
 - Have fun
-- Provide good and interesting articles
 - Learn
